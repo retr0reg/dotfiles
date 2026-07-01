@@ -13,6 +13,9 @@
 #fi
 
 #alias is bellow
+#
+alias pwnsh='colima ssh -p pwn'
+#
 alias vim='nvim'
 alias nv='nvim'
 # If you come from bash you might have to change your $PATH.
@@ -221,3 +224,6 @@ zstyle ':completion:*' menu select
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# neovim version managed by bob — keep this ahead of Homebrew's nvim
+export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
