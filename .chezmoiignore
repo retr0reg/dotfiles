@@ -1,0 +1,6 @@
+# never manage nested git repositories
+**/.git
+**/.git/**
+
+# machine-specific shell config (kept local, not synced)
+.zshrc
